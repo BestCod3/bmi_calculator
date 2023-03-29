@@ -45,8 +45,8 @@ class _HomePageState extends State<HomePage> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  WeightAgeContainer(text: 'WEIGHT'),
-                  WeightAgeContainer(text: 'AGE'),
+                  WeightContainer(text: 'WEIGHT'),
+                  AgeContainer(text: "AGE")
                 ],
               ),
             ],
